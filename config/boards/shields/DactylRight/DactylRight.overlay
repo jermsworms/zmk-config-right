@@ -2,7 +2,7 @@
 
 /{
 	chosen {
-		zmk,physical-layout = &physical_layout0;
+		zmk,physical-layout = &default_kscan;
 		zmk,kcsan = &default_kscan;
 		zmk,matrix-transform = &default_transform;
 	};
