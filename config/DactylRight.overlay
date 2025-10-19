@@ -4,7 +4,7 @@
 /{
 	chosen {
 		zmk,kcsan = &kscan0;
-		zmk,matrix_transform = &default_transform;
+		zmk,matrix_transform = &keymap_transform0;
 	};
 
 	kscan0: kscan {
@@ -27,7 +27,7 @@
                     <&pro_micro 22 GPIO_ACTIVE_HIGH>;
 	};
 
-	default_transform: matrix_transform {
+	default_transform: keymap_transform0 {
 		compatible = "zmk,matrix-transform";
 		rows = <6>;
 		columns = <6>;
