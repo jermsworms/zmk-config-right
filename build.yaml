@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: DactylRight
+  - board: nice_nano_v2
 #  - shield: DactylRight
